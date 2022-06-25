@@ -1,0 +1,539 @@
+:root {
+
+  --color-0: #ec7a75; /* box color */
+
+
+
+  --color-1: #ec7a75; /* */
+
+  --color-2: #FFFFFF; /* */
+
+  --color-3: #ec7a75; /* main color */
+
+  --color-4: #a439a7; /* sub  color */
+
+  --color-5: #a439a7; /* */
+
+}
+
+
+/* 배너 */
+
+header #header-bar > .row {
+
+    padding: 3px #ffffff;
+
+    background:linear-gradient(to bottom, #ec7a75, #a439a7);
+    border-radius: 12px;
+    border-bottom: 2px solid var(--color-1); border-right: 2px solid var(--color-1) 
+
+}
+
+
+/* 배경 */
+
+body {
+ font-size: 14px;
+}
+
+
+
+
+
+header {
+
+padding:0 0 .4em
+
+}
+
+
+html {
+
+   background: linear-gradient(to bottom, #ec7a75, #a439a7);
+
+  height: auto !important;
+
+}
+
+
+body {
+   
+background: transparent;
+
+animation: snow 20s linear infinite;
+
+ background-image:url('https://rkalek.github.io/ye/y1.png'),
+ url("https://rkalek.github.io/ye/w1.png"),
+ url("https://rkalek.github.io/ye/g1.png");
+}
+@keyframes snow {
+
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+
+}
+
+
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'yg-jalnan';
+}
+
+
+/* 로고 */
+
+
+
+header .row>div:nth-child(1)>a {
+
+    display: block;
+
+    width: 200px;
+
+    height: 50px;
+
+    background: url(https://rkalek.github.io/ye/ye11.png) no-repeat; /* url(로고 경로 입력) */
+
+    background-size: auto 50px;
+
+}
+
+
+
+header .row>div:nth-child(1)>a>img {
+
+  display: none;
+
+}
+
+
+html,
+
+body,
+
+.fr-popup.emoticons,
+
+.fr-top,
+
+select.form-control,
+
+input[type=checkbox],
+
+input[type=radio],
+
+.opt
+
+{
+
+cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
+
+}
+
+
+
+
+
+#right-search-form>#right-search-btn,
+
+#board-info #board-info-bottom #addFavoriteBtn,
+
+#article-list #article-option-area>#article-option-area-toggle-btn,
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+
+.reply > .reply-header > .reply-writer.logged,
+
+.reply-menu,
+
+.btn,
+
+.fr-toolbar .fr-command.fr-btn,
+
+.fr-popup .fr-command.fr-btn,
+
+.fr-view img,
+
+.pull-left,
+
+a {
+
+cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
+
+}
+
+
+
+span#viewers,
+
+#article-list #boardSearchForm .form-control,
+
+.fr-view,
+
+.fr-box.fr-basic.fr-element,
+
+input[type='text']
+
+{
+
+cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
+
+}
+
+/* 프로필 위치 이동, 프로필 테두리 추가 시작 */
+
+#board-info img{
+
+float:left !important;
+border: 2px SOLID #ec7a75;
+
+/* display: none; */
+
+}
+
+/* 프로필 위치 이동, 프로필 테두리 추가 끝 */
+
+
+
+/* 검색창 */
+
+
+
+header #right-search-form>input[type=text] {
+
+    border: 3px solid #ec7a75; /* 검색창 테두리 색 */
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 검색 버튼 */
+
+
+
+header #right-search-form>#right-search-btn {
+
+    color: #a439a7; /* 검색창 옆 돋보기 색 */
+
+}
+
+#board-info>img#board-info-profile-img {
+	width: 80px;
+	margin-right: 15px;
+	border-radius: 10px;
+	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
+	border: 2px solid var(--color-3);
+	transition: 0.2s;
+}
+#board-info>img#board-info-profile-img:hover {
+	border-radius: 8px;
+	transform: scale(1.1);
+}
+.frame>.frame,
+#article-list {
+	background: white;
+	border: 2px solid var(--color-3);
+	border-radius: 12px;
+}
+
+
+#board-info {
+	margin: 0;
+	height: auto;
+	background: #a439a7;
+	border: 2px solid var(--color-3);
+	border-radius: 12px;
+	margin-bottom: 0.5em;
+}
+
+
+
+
+
+
+/* 광고 배너 */
+
+
+
+header #header-bar>.row {
+
+    border-top: 5px solid #ec7a75 !important; /* 광고 배너 테두리 색 */
+
+    border: 1px solid #a439a7; /* 광고 배너 테두리 색 */
+
+}
+
+
+
+/* 광고 배너 광고 뱃지 */
+
+
+
+header #header-bar #header-top-notice strong.notice-badge {
+
+    background: #ffffff; /* 광고 배너 광고 뱃지 배경 색상 */
+
+}
+
+
+
+/* 좌측 배너 */
+
+#main .menu-wrapper > .header {border-border-radius :10px 10px 0 0 }
+
+#main .menu-wrapper {
+
+    border: 1px solid #ec7a75; /* 좌측 배너 테두리 색 */
+
+    border-top: none !important;
+    border-radius: 15px;
+}
+
+#main .menu-wrapper a:nth-last-child(1) {
+    border-radius: 0px 0px 12px 12px;
+}
+#main .menu-wrapper>.header {
+	background: var(--mainColor);
+	border-radius: 9px 9px 0 0;
+}
+
+
+
+
+/* 좌측 배너 헤더 */
+
+
+
+#main .menu-wrapper>.header {
+
+    background: #a439a7; /* 좌측 배너 제목 배경 색 */
+
+    border-radius: 15px 15px 0 0;
+
+}
+
+
+
+/* 좌측 배너 빈 공간 */
+
+
+
+#main .menu-wrapper .spacer {
+
+    background: none;
+
+}
+
+
+
+/* 좌측 배너 하단 */
+
+
+
+#main .menu-wrapper a:nth-last-child(1) {
+
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+
+
+/* 메인 배너 */
+
+
+
+#main #main-content>div.frame {
+	 border-top: none !important;
+    border-radius: 1px #ec7a75;
+
+   /*  border-top: 5px solid #ec7a75 !important; */ /* 메인 배너 테두리 */
+
+ /*   border: 1px solid #a439a7; */ /* 메인 배너 테두리 */
+
+}
+
+
+
+/* 접속자 수 */
+
+
+
+#board-info #viewers-area {
+
+    color: #ff5d5d; /* 접속자 수 글씨 색 */
+
+}
+
+
+
+#board-info #viewers-area #viewers:before {
+
+    content: "트수";    /* 숫자 앞에 들어갈 문구 */
+
+        /* ex) content: "트수 "; */
+
+        /* 출력 시 : 트수 n */
+
+    cursor: text;
+
+}
+
+
+
+#board-info #viewers-area #viewers:after {
+
+    content: "명 보는중";    /* 숫자 뒤에 들어갈 문구 */
+
+        /* ex) content: "명 접속중"; */
+
+        /* 출력시 : n명 접속중 */
+
+    cursor: text;
+
+}
+
+
+
+/* 메인 배너 글 공지 */
+
+
+
+#article-list>.article-list-row.notice {
+
+    background-color: #ec7a75; /* 공지 배경 색 */
+
+}
+
+
+
+/* 글 추천 수 */
+
+
+
+#article-list>.article-list-row>.item>.list-header>span {
+
+    background-color: #a439a7; /* 글 추천 수 배경 색 */
+
+}
+
+
+
+/* 댓글 수 */
+
+
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+
+    color: #a439a7; /* 댓글 수 색 */
+
+}
+
+
+
+#article-reply-area > .header h5 {
+
+    color: #a439a7; /* 댓글 수 색 */
+
+}
+
+
+
+/* 인기글 버튼 */
+
+
+
+#article-list #article-list-menu>.btn.best {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 설정 버튼 */
+
+
+
+#article-list #article-list-menu>.btn.cog {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 삭제 버튼 */
+
+
+
+#article-list #article-list-menu>.btn.del {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 글 쓰기 버튼 */
+
+
+
+#article-list #article-list-menu>.btn.write {
+
+    border-radius: 15px;
+
+}
+
+
+
+.btn-primary {
+
+    background-color: #ec7a75; /* 글 쓰기 버튼 배경 색 */
+
+    border-color: #ffffff; /* 글 쓰기 버튼 배경 색 */
+
+}
+
+
+
+/* 목록 버튼 */
+
+
+
+.btn {
+
+    border-radius: 15px;
+
+}
+
+
+
+.btn-group-sm>.btn, .btn-sm {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 게시글 추천 */
+
+
+
+.btn-outline-success {
+
+    color: #ec7a75; /* 추천 버튼 배경 색 */
+
+    border-color: #ffffff; /* 추천 버튼 테두리 색 */
+
+}
