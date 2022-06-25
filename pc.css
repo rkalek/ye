@@ -4,7 +4,7 @@
 
 
 
-  --color-1: #ec7a75; /* */
+  --color-1: #ffffff; /* */
 
   --color-2: #FFFFFF; /* */
 
@@ -24,7 +24,6 @@ header #header-bar > .row {
     padding: 3px #ffffff;
 
     background:linear-gradient(to bottom, #ec7a75, #a439a7);
-    border-radius: 12px;
     border-bottom: 2px solid var(--color-1); border-right: 2px solid var(--color-1) 
 
 }
@@ -243,7 +242,7 @@ header #right-search-form>#right-search-btn {
 #article-list {
 	background: white;
 	border: 2px solid var(--color-3);
-	border-radius: 12px;
+	
 }
 
 
@@ -252,7 +251,6 @@ header #right-search-form>#right-search-btn {
 	height: auto;
 	background: #a439a7;
 	border: 2px solid var(--color-3);
-	border-radius: 12px;
 	margin-bottom: 0.5em;
 }
 
