@@ -63,13 +63,13 @@ animation: snow 20s linear infinite;
 
  background-image:url('https://rkalek.github.io/ye/bg1.png'),
  url("https://rkalek.github.io/ye/sp1.png"),
- url("https://rkalek.github.io/ye/bg2.png");
+ url("https://rkalek.github.io/ye/5.png");
 }
 @keyframes snow {
 
 0% {background-position: 0px 1000px, 0px 200px, 700px 1000px;}
 
-100% {background-position: 700px 0px, 200px 0px, 0px 0px;}
+100% {background-position: 500px 0px, 200px 0px, 0px 0px;}
 
 }
 
@@ -133,7 +133,7 @@ input[type=radio],
 
 {
 
-cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
+cursor: url("https://rkalek.github.io/ye/bb.png") 0 0, auto !important;
 
 }
 
@@ -165,7 +165,7 @@ cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
 
 a {
 
-cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
+cursor: url("https://rkalek.github.io/ye/bb.png") 0 0, auto !important;
 
 }
 
@@ -183,7 +183,7 @@ input[type='text']
 
 {
 
-cursor: url("https://rkalek.github.io/ye/ori.png") 0 0, auto !important;
+cursor: url("https://rkalek.github.io/ye/bb.png") 0 0, auto !important;
 
 }
 
