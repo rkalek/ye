@@ -67,9 +67,9 @@ animation: snow 20s linear infinite;
 }
 @keyframes snow {
 
-0% {background-position: 500px 0px, 0px 0px, 0px 0px;}
+0% {background-position: 0px 1000px, 0px 0px, 0px 0px;}
 
-100% {background-position: 0px 1000px, 400px 400px, 300px 300px;}
+100% {background-position: 500px 0px, 400px 400px, 300px 300px;}
 
 }
 
@@ -228,7 +228,6 @@ header #right-search-form>#right-search-btn {
 
 #board-info>img#board-info-profile-img {
 	width: 80px;
-	margin-right: 15px;
 	border-radius: 10px;
 	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
 	border: 2px solid var(--color-1);
@@ -249,7 +248,7 @@ header #right-search-form>#right-search-btn {
 #board-info {
 	margin: 0;
 	height: auto;
-	background: #a439a7;
+	background: #d799f2;
 	border: 2px solid var(--color-3);
 	margin-bottom: 0.5em;
 }
