@@ -231,7 +231,7 @@ header #right-search-form>#right-search-btn {
 	margin-right: 15px;
 	border-radius: 10px;
 	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
-	border: 2px solid var(--color-3);
+	border: 10px solid var(--color-3);
 	transition: 0.2s;
 }
 #board-info>img#board-info-profile-img:hover {
@@ -241,7 +241,7 @@ header #right-search-form>#right-search-btn {
 .frame>.frame,
 #article-list {
 	background: white;
-	border: 2px solid var(--color-3);
+	
 	
 }
 
