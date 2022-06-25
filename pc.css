@@ -61,15 +61,15 @@ background: transparent;
 
 animation: snow 20s linear infinite;
 
- background-image:url('https://rkalek.github.io/ye/y1.png'),
+ background-image:url('https://rkalek.github.io/ye/bg1.png'),
  url("https://rkalek.github.io/ye/w1.png"),
  url("https://rkalek.github.io/ye/g1.png");
 }
 @keyframes snow {
 
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+0% {background-position: 500px 0px, 0px 0px, 0px 0px;}
 
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+100% {background-position: 0px 1000px, 400px 400px, 300px 300px;}
 
 }
 
@@ -231,7 +231,7 @@ header #right-search-form>#right-search-btn {
 	margin-right: 15px;
 	border-radius: 10px;
 	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
-	border: 10px solid var(--color-3);
+	border: 2px solid var(--color-1);
 	transition: 0.2s;
 }
 #board-info>img#board-info-profile-img:hover {
