@@ -1,6 +1,6 @@
 :root {
 
-  --color-0: #ec7a75; /* box color */
+  --color-0: #e177ff; /* box color */
 
 
 
@@ -8,7 +8,7 @@
 
   --color-2: #FFFFFF; /* */
 
-  --color-3: #ec7a75; /* main color */
+  --color-3: #e177ff; /* main color */
 
   --color-4: #a439a7; /* sub  color */
 
@@ -49,7 +49,7 @@ padding:0 0 .4em
 
 html {
 
-   background: linear-gradient(to bottom, #ec7a75, #a439a7);
+   background: linear-gradient(to bottom, #ff8c56, #ce70ff);
 
   height: auto !important;
 
@@ -101,7 +101,7 @@ header .row>div:nth-child(1)>a {
 
     height: 50px;
 
-    background: url(https://rkalek.github.io/ye/ye11.png) no-repeat; /* url(로고 경로 입력) */
+    background: url(https://rkalek.github.io/ye/ye22.png) no-repeat; /* url(로고 경로 입력) */
 
     background-size: auto 50px;
 
