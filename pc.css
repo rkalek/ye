@@ -62,14 +62,14 @@ background: transparent;
 animation: snow 20s linear infinite;
 
  background-image:url('https://rkalek.github.io/ye/bg1.png'),
- url("https://rkalek.github.io/ye/w1.png"),
+ url("https://rkalek.github.io/ye/sp1.png"),
  url("https://rkalek.github.io/ye/g1.png");
 }
 @keyframes snow {
 
-0% {background-position: 0px 1000px, 0px 0px, 0px 0px;}
+0% {background-position: 0px 1000px, 0px 200px, 0px 0px;}
 
-100% {background-position: 500px 0px, 400px 400px, 300px 300px;}
+100% {background-position: 500px 0px, 200px 0px, 300px 300px;}
 
 }
 
